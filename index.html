@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarabjit Kaur | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Sarabjit Kaur</h1>
+    <p>Python Developer | Angular Learner | ISTQB Certified</p>
+    <button id="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a computer science postgraduate with an MCA degree and ISTQB certified. I’m learning Python, Angular, and project management to transition into tech and project roles. I enjoy building skills and growing daily.</p>
+  </section>
+
+  <section id="projects" data-aos="fade-right">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>Examination Supervision Process (Internship)</h3>
+        <p>Designed a Java interface to assign duties and generate supervision charts. Enhanced logic-building and UI development skills.</p>
+      </li>
+      <li>
+        <h3>Survey Questionnaire (Testing Project)</h3>
+        <p>Built and tested a web-based survey system during software testing diploma at Seed Infotech.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="certifications" data-aos="fade-left">
+    <h2>Certifications</h2>
+    <ul>
+      <li>ISTQB Certified Tester (2014)</li>
+      <li>Python Developer – SoloLearn</li>
+      <li>Angular – SoloLearn</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="zoom-in">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sarabjit Kaur. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="script.js" defer></script>
+</body>
+</html>
